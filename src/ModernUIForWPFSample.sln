@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernUIForWPFSample.BlankWindow", "ModernUIForWPFSample.BlankWindow\ModernUIForWPFSample.BlankWindow.csproj", "{61F38D13-1F6E-4549-91B8-EBEB54CD5139}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernUIForWPFSample.DefaultModernUI", "ModernUIForWPFSample.DefaultModernUI\ModernUIForWPFSample.DefaultModernUI.csproj", "{74A2B00A-E833-4D12-9624-9CAB63B4A305}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernUIForWPFSample.WithoutBackButton", "ModernUIForWPFSample.WithoutBackButton\ModernUIForWPFSample.WithoutBackButton.csproj", "{1DAC6CF2-3450-47A5-9D24-0513873B4428}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernUIForWPFSample.Navigation", "ModernUIForWPFSample.Navigation\ModernUIForWPFSample.Navigation.csproj", "{943047D0-9FB6-41EB-B054-96802FFBE07A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61F38D13-1F6E-4549-91B8-EBEB54CD5139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61F38D13-1F6E-4549-91B8-EBEB54CD5139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61F38D13-1F6E-4549-91B8-EBEB54CD5139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61F38D13-1F6E-4549-91B8-EBEB54CD5139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74A2B00A-E833-4D12-9624-9CAB63B4A305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74A2B00A-E833-4D12-9624-9CAB63B4A305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74A2B00A-E833-4D12-9624-9CAB63B4A305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74A2B00A-E833-4D12-9624-9CAB63B4A305}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DAC6CF2-3450-47A5-9D24-0513873B4428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DAC6CF2-3450-47A5-9D24-0513873B4428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DAC6CF2-3450-47A5-9D24-0513873B4428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DAC6CF2-3450-47A5-9D24-0513873B4428}.Release|Any CPU.Build.0 = Release|Any CPU
+		{943047D0-9FB6-41EB-B054-96802FFBE07A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{943047D0-9FB6-41EB-B054-96802FFBE07A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{943047D0-9FB6-41EB-B054-96802FFBE07A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{943047D0-9FB6-41EB-B054-96802FFBE07A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
