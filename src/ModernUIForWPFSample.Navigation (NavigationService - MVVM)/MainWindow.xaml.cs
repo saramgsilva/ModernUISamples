@@ -37,8 +37,8 @@ namespace ModernUIForWPFSample.Navigation
         private void SetupNavigation()
         {
             var navigationService = new NavigationService();
-            navigationService.Configure(ViewModelLocator.ResourcePageKey, new Uri("Views/ResourcesView.xaml"));
-            navigationService.Configure(ViewModelLocator.StepsPageKey, new Uri("Views/StepsView.xaml"));
+            navigationService.Configure(ViewModelLocator.ResourcePageKey, new Uri("Views/ResourcesView.xaml", UriKind.Relative));
+            navigationService.Configure(ViewModelLocator.StepsPageKey, new Uri("Views/StepsView.xaml", UriKind.Relative));
 
             SimpleIoc.Default.Register<IModernNavigationService>(() => navigationService);
         }
